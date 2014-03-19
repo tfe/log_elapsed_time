@@ -17,10 +17,11 @@ Jeweler::Tasks.new do |gem|
   gem.name = "log_elapsed_time"
   gem.homepage = "http://github.com/tfe/log_elapsed_time"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Quick and easy way to log the time it takes code to run.}
+  gem.description = gem.summary
   gem.email = "todd@toddeichel.com"
   gem.authors = ["Todd Eichel"]
+  gem.homepage = "https://github.com/tfe/log_elapsed_time"
   # dependencies defined in Gemfile
 end
 Jeweler::RubygemsDotOrgTasks.new
