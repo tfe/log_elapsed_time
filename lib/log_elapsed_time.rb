@@ -1,10 +1,3 @@
-# Usage:
-# log_elapsed_time("Request to external service took") do
-#   HTTP.post(...)
-# end
-# This would log "Request to external service took 2048ms" and return the
-# result of the POST.
-
 def log_elapsed_time(message_prefix = nil, &block)
   start_time = Time.now
   return_value = yield
